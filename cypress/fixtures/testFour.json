@@ -1,0 +1,9 @@
+{
+  "usuario": {
+    "user": "DevUser",
+    "pass": "123456!"
+  },
+  "mensaje": {
+    "error": "Credentials were not found"
+  }
+}

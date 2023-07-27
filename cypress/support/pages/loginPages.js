@@ -6,15 +6,15 @@ export class LoginPage {
         this.submitForm = '#submitForm'
     }
 
-    escribirUsuario() {
-        cy.get(this.usuarioInput);
+    escribirUsuario(text) {
+        cy.get(this.usuarioInput).type(text);
     };
 
-    escribirContraseña() {
-        cy.get(this.contraseñaInput);
+    escribirContraseña(text) {
+        cy.get(this.contraseñaInput).type(text);
     };
 
     enviarFormulario() {
-        cy.get(this.submitForm);
+        cy.get(this.submitForm).click();
     };
 };
